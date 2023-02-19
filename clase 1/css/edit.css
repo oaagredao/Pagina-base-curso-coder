@@ -1,0 +1,139 @@
+  main {
+    background-image: url('../multimedia/imagenes/imgfondo2.png');
+
+    background-position: center;
+    background-size: 100% 100%;
+    
+
+
+
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Ancho del elemento */
+    background: linear-gradient(to bottom, rgb(156, 158, 157), white);
+    /* Color de fondo */
+    padding: 5px;
+    /* Espacio entre el contenido y el borde */
+  }
+
+
+  h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+
+  }
+
+
+
+  ul {
+    list-style: none;
+    /* retira subrayado */
+    display: flex;
+    /* Alinea los elementos en línea */
+    justify-content: space-between;
+    /* Espacio uniforme entre los elementos */
+  }
+
+  li {
+    margin: 0 10px;
+    /* 0 espacio arriba y abajo, 10 a los lados */
+    flex-grow: 1;
+    /* Permite que los elementos li ocupen todo el ancho disponible */
+    text-align: center;
+    /* Alinea el texto de los elementos li en el centro */
+  }
+
+  a {
+    text-decoration: none;
+    /* Elimina el subrayado por defecto de los enlaces */
+    color: black;
+    /* Establece el color de texto en negro */
+    display: block;
+    /* Hace que los enlaces ocupen todo el ancho disponible */
+    padding: 15px;
+    /* Agrega relleno de 15 píxeles alrededor del texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    text-shadow: -2px -2px 0 #faf7f7, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  }
+
+
+
+  .tituloprinc {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+
+
+  }
+
+  .borde {
+    height: 0;
+    border-bottom: 20px solid black;
+    margin-bottom: 10px;
+  }
+
+  .slogan {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 100px;
+  }
+
+  .frase {
+    width: 1000px;
+    height: 500px;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: center;
+    margin: 70px;
+  }
+
+  .imgtxt {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .imgtxt img {
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(87, 82, 82);
+  }
+
+  .imgtxt p {
+    font-size: 35px;
+
+  }
+
+
+
+  footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Ancho del elemento */
+    height: 50px;
+    background: linear-gradient(to bottom, rgb(156, 158, 157), white);
+    /* Color de fondo */
+    padding: 4px;
+    /* Espacio entre el contenido y el borde */
+    position: fixed;
+    /* Agrega una posición fija al footer */
+    bottom: 0;
+    /* Ubica el footer en la parte inferior de la página */
+  }
